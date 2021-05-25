@@ -1,0 +1,28 @@
+[
+  {
+    "text": "Home",
+    "url": "/home/",
+    "icon": "fa-home",
+    "layout": "page"
+  },
+  {
+    "text": "About",
+    "url": "/about/",
+    "icon": "fa-rocket"
+  },
+  {
+    "text": "Portfolio",
+    "url": "/portfolio",
+    "icon": "fa-newspaper-o"
+  },
+  {
+    "text": "Resume",
+    "url": "/resume",
+    "icon": "fa-briefcase",
+  },
+  {
+    "text": "Github",
+    "url": "https://github.com/sarahhaggarty",
+    "icon": "fa-github"
+  },
+]

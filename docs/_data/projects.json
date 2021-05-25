@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Plant UML - A Versatile Tool for Sequence Diagrams and More",
+		"image": "placeholder.jpg",
+		"url": "plantUML",
+		"date": "May 2021",
+		"tags": ["PlantUML","Introduction"]
+	},
+	{
+		"name": "Managing the Customer Relationship - Embedded Firmware Delivery",
+		"image": "placeholder.jpg",
+		"url": "managing-the-customer-relationship",
+		"date": "May 2021",
+		"tags": ["Firmware","Article", "Guidance"]
+	},
+
+]
