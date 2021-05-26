@@ -28,7 +28,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sarahhaggarty
 logo: /static/img/escher.png
 about: Technical Writer
-allowsearch: true
+allowsearch: false
+
+enableTags: true
+tagarray: []
 
 # Build settings
 remote_theme: codeasashu/hcz-jekyll-blog

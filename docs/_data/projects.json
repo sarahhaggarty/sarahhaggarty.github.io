@@ -1,14 +1,14 @@
 [
 	{
-		"name": "Plant UML - A Versatile Tool for Sequence Diagrams and More",
-		"image": "placeholder.jpg",
+		"name": "Plant UML - A Versatile Tool For Sequence Diagrams And More",
+		"image": "../../assets/PlantUML_Logo_small.png",
 		"url": "plantUML",
 		"date": "May 2021",
-		"tags": ["PlantUML","Introduction"]
+		"tags": ["PlantUML","Introduction", "Java", "Plain Text"]
 	},
 	{
 		"name": "Managing the Customer Relationship - Embedded Firmware Delivery",
-		"image": "placeholder.jpg",
+		"image": "../../assets/handshake.png",
 		"url": "managing-the-customer-relationship",
 		"date": "May 2021",
 		"tags": ["Firmware","Article", "Guidance"]

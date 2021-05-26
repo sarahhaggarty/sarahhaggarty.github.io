@@ -1,7 +1,7 @@
 [
   {
     "text": "Home",
-    "url": "/home/",
+    "url": "/",
     "icon": "fa-home",
     "layout": "page"
   },
@@ -16,9 +16,9 @@
     "icon": "fa-newspaper-o"
   },
   {
-    "text": "Resume",
-    "url": "/resume",
-    "icon": "fa-briefcase",
+    "text": "LinkedIn",
+    "url": "/linkedin",
+    "icon": "fa-linkedin",
   },
   {
     "text": "Github",

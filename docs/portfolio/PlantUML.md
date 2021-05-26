@@ -1,4 +1,4 @@
-# PlantUML - A versatile tool for sequence diagrams and more
+# PlantUML - A Versatile Tool For Sequence Diagrams And More
 
 Have you ever needed to create complicated sequence diagrams only to have to spend considerable time updating and reviewing it countless times? Using applications like Microsoft Visio or LucidChart can make this manual work incredibly time consuming. But what if instead of using your mouse to manually draw and adjust the shapes and sequences and their content, you could write a few lines of text instead? 
 
@@ -13,34 +13,39 @@ So you can think of it as a standardised set of symbols, shapes and arrows that 
 To answer the original topic, wha PlantUML is a tool that is used to draw UML diagrams, using a simple and human readable text description. The tool can output a diagram in PNG, SVG or LaTeX format.
 
 An example:
-
-![](C:\Users\Sarah\Documents\PlantUML\jokediagram.png)
+<p align="center">
+  <img  src="..\assets\jokediagram.png">
+</p>
 
 This diagram was generating using the following text:
 
-`@startuml`
-`Andy -> Bill: Hey`
-`Bill --> Andy: Hey there`
-`Andy -> Bill: How are you?`
-`Bill --> Andy: I'm good. How are you?`
-`Andy -> Bill: Same old. Same old.`
-`Bill --> Andy: Fair enough.`
-`@enduml`
+<pre><code>@startuml
+Andy -> Bill: Hey
+Bill --> Andy: Hey there
+Andy -> Bill: How are you?
+Bill --> Andy: I'm good. How are you?
+Andy -> Bill: Same old. Same old.
+Bill --> Andy: Fair enough.
+@enduml
+</code></pre>
 
 This diagram can then be easily expanded in multiple ways or edited by simply editing the text. For example, we can add another participant, Sam:
 
-![](C:\Users\Sarah\Documents\PlantUML\jokediagram2.png)
+<p align="center">
+  <img  src="..\assets\jokediagram2.png">
+</p>
 
 This diagram was generated using the following additional lines of text:
 
-`Sam --> Bill: Heeey Bill!`
-`Bill --> Andy: Oh no.`
-`Andy -> Bill: What is it?`
-`Bill --> Andy: Sam's here.`
-`Bill -> Sam: Hi Sam.`
-`Andy -> Bill: Don't tell Sam I'm`
-`Sam --> Andy: Heeey Andy!` 
-`Andy -> Bill: ...here.`
+<pre><code>Sam --> Bill: Heeey Bill!
+Bill --> Andy: Oh no.
+Andy -> Bill: What is it?
+Bill --> Andy: Sam's here.
+Bill -> Sam: Hi Sam.
+Andy -> Bill: Don't tell Sam I'm
+Sam --> Andy: Heeey Andy! 
+Andy -> Bill: ...here.
+</code></pre>
 
 For many different examples of how you can modify your diagram to your needs you can look at the [PlantUML wiki.](https://plantuml.com/sequence-diagram)
 
@@ -65,9 +70,10 @@ Now you have PlantUML installed these are the ways that you can use it:
 
 To activate the GUI, double-click on the plantuml.jar file that you downloaded earlier. On the interface you will see an empty file list. To get started, create a *.txt file using your editor of your choice. I like to use Notepad++. This file should be stored in the same folder as your plantuml.jar file. Save the below text to your *.txt file.
 
-`@startuml`
-`Alice -> Bob: test`
-`@enduml`
+<pre><code>@startuml
+Alice -> Bob: test
+@enduml
+</code></pre>
 
 Now if you look at the interface you should see your newly saved file listed. Double click on the file to generate the diagram as a PNG image. Congratulations! You made your first UML diagram using PlantUML.
 
@@ -75,9 +81,10 @@ Now if you look at the interface you should see your newly saved file listed. Do
 
 To get started, create a *.txt file using your text editor of your choice. This file should be stored in the same folder as your plantuml.jar file. Save the below text to your *.txt file.
 
-`@startuml`
-`Alice -> Bob: test`
-`@enduml`
+<pre><code>@startuml
+Alice -> Bob: test
+@enduml
+</code></pre>
 
 Open your preferred terminal application. I prefer to use [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab).
 
