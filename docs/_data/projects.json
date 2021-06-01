@@ -13,5 +13,11 @@
 		"date": "May 2021",
 		"tags": ["Firmware","Article", "Guidance"]
 	},
-
+	{
+		"name": "Creating a Static Website Using Jekyll",
+		"image": "../../assets/jekyll-logo-square.png",
+		"url": "Jekyll",
+		"date": "June 2021",
+		"tags": ["Documentation","Jekyll", "Ruby", "Markdown"]
+	},
 ]

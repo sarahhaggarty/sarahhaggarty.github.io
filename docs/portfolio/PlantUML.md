@@ -10,7 +10,7 @@ First let's start with understanding what UML means. From Wikipedia: "The *Unifi
 
 So you can think of it as a standardised set of symbols, shapes and arrows that are automatically generated so you don't have to waste time dragging, linking and resizing these types of objects.
 
-To answer the original topic, wha PlantUML is a tool that is used to draw UML diagrams, using a simple and human readable text description. The tool can output a diagram in PNG, SVG or LaTeX format.
+To answer the original topic, PlantUML is a tool that is used to draw UML diagrams, using a simple and human readable text description. The tool can output a diagram in PNG, SVG or LaTeX format. It is written in Java but you do not need knowledge of Java to use it.
 
 An example:
 <p align="center">
@@ -99,3 +99,5 @@ This will generate the diagram as an image. Congratulations! You made your first
 ## Further Reading
 
 This article only contains a very small portion of PlantUML's capabilities. PlantUML is also integrated in many platforms and applications such as GitLab, GitHub, Confluence, WordPress and more. See here for the full [list](https://plantuml.com/running). PlantUML can even be used to create non-UML diagrams! To understand the full scope of what this tool has to offer, which is extensive, you should explore the [PlantUML wiki.](https://plantuml.com/sequence-diagram) Happy reading!
+
+*Written by Sarah Haggarty*

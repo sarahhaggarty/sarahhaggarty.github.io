@@ -19,8 +19,9 @@ In the below article I've highlighted **"The Fundamental Six"** that are common 
 **Be honest.** Admit what you do know and what you don’t. And whatever you do, don’t improvise an answer on the fly. If you do this you risk looking unprofessional and disorganised. If you don't know something it is far better to accept the task of finding an answer than guessing and getting it wrong. 
 
 How to communicate successfully in an influential and persuasive way that engenders trust will depend on the culture of the customer you are working with. If you want to learn more about this, I recommend Erin Meyer’s book: The Culture Map. In it, she compares countries on eight different scales to show how differences in cultural approach can lead to conflict. With awareness of where you are as a supplier on these scales and where your customer is, you can get the most out of your communication and relationship building.
+<a name="dont-overshare"></a>
 
-### 2. Don’t Overshare
+### 2. Don't Overshare
 <p align="center">
 	<img src="..\assets\Too_much_information_-_geograph.org.uk_-_902850.jpg" style="zoom: 50%;" alt="Jonathan Wilkins / *Too much information* / [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)"/>
 </p>
@@ -105,8 +106,11 @@ There is always pressure as a supplier to deliver more content, faster and to a 
 
 Make sure you have time set aside for internal alignment. There’s nothing worse than discussing and aligning in front of the customer. 
 
-When being requested for information as the supplier you have the power when to share and how much (see: [Don't Overshare](#Don't Overshare)). It is always better to delight by delivering more than anticipated rather than to overcommit and underdeliver. 
+When being requested for information as the supplier you have the power when to share and how much   
+(see: [Don't Overshare](#dont-overshare)). It is always better to delight by delivering more than anticipated rather than to overcommit and underdeliver. 
 
 If you can reach the goldilocks stage of delivering just the right content at just the right time as planned then even better. But be wary that once it is seen that a delivery schedule or process starts working, the demands on that schedule/process will significantly increase. 
 
 Stick to what you know you can do well.
+
+*Written by Sarah Haggarty*
