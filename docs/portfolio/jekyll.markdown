@@ -8,7 +8,7 @@ This document will provide instructions on how to:
 - [Install Jekyll](#installing-jekyll)
 - [Create a static website](#creating-a-static-website)
 - [Customise your website](#customising-your-website)
-- [Adding content to your website](#adding-content-to-your-website)
+- [Add content to your website](#adding-content-to-your-website)
 
 **Note:** This document will only cover users of Windows 10 devices. For other Operating Systems like macOS or Linux, there are guides available [here](https://jekyllrb.com/docs/installation/).
 
@@ -59,10 +59,10 @@ Where you substitute `<new_folder>` with the name of your new folder.
 3\. Navigate to where you created your site if you created a new folder in the last step. Then to test the site locally, enter the following command:
 <pre><code>bundle exec jekyll serve
 </code></pre>
-4\. You can now access and view this site at: [http://localhost:4000/](http://localhost:4000/) Open a browser and browse to this url to view your new website. To stop this process you can press CTRL and C keys simultaneously on your keyboard. The command prompt window will ask for confirmation twice. Enter `y` when prompted twice to successfully stop the process.
+4\. You can now access and view this site at: [http://localhost:4000/](http://localhost:4000/). Open a browser and browse to this url to view your new website. To stop this process you can press CTRL and C keys simultaneously on your keyboard in the command prompt window. The command prompt window will ask for confirmation twice. Enter `y` when prompted twice to successfully stop the process.
 
 ## Customising Your Website
-Your jekyll site will have the following structure by default:
+Your new jekyll site will have the following structure by default:
 <pre><code>.
 ├── Gemfile
 ├── Gemfile.lock
@@ -112,11 +112,11 @@ You can also configure additional Jekyll plugins in this file but this is more a
 Depending on the design of your theme there may be other variables that you can configure here. Make sure to consult the `README.md` of your theme to see what is available.
 
 ### Further Theme Customisations
-Most themes allow for further customisation and have additional folders as part of their theme for this purpose. 
+Outside of the `_config.yml` file, most themes allow for further customisation and have additional folders as part of their theme for this purpose. 
 This can include some of the following:
 - Being able to adjust the graphics used on your website in a `_data` or `assets` folder.
-- Being able to configure your social media URLs or webpage navigation URLS in a `_data` folder.
-- Being able to configure tags and images for your pages or posts in a `_data` folder.
+- Being able to configure your social media URLs or webpage navigation URLs in a `_data` folder.
+- Being able to configure tags and images for your pages or blog posts in a `_data` folder.
 
 Each theme's `README.md` will have further details on what is possible in this area.
 
@@ -133,14 +133,14 @@ You can override parts of a Jekyll theme if you want to make small changes to it
 ├── _site
 └── index.html
 </code></pre>
-However if the theme is gem-based you may not see all these folders available to you. This is because they are stored in the Ruby Gem elsewhere on your device. However Jekyll is written so that it will consult your site directory first for the following files and if nothing is present it will use the defaults in the Ruby Gem:
+However if the theme is gem-based you may not see all these folders available to you in your site directory. This is because they are stored in the Ruby Gem elsewhere on your device. However Jekyll is written so that it will consult your site directory first for the following files and if nothing is present it will use the defaults in the Ruby Gem:
 
 ---
 
 Folder|Purpose
 --- | ---
 `/assets` | Typically contains the main CSS style theme
-`/_layouts` | Contains template HTML pages for default, pages and posts
+`/_layouts` | Contains template HTML pages for default, pages and blog posts
 `/_includes` | Contains smaller template HTML pieces for items like headers and footers
 `/_sass` | Contains smaller parts of your CSS style theme  
 
@@ -154,19 +154,19 @@ Where `<theme>` is substituted for your theme name.
 
 With this method you can then modify default font colours or edit the style of your website footer, for example. 
 
-**Note:** You must restrict your modifications to only within these folders. Any changes you make in other folders will be written over the next time you build the site locally. This doesn't apply to any new folders that you create for your own purposes.
+**Note:** You must restrict your modifications to only within these folders specified above or listed in your theme's documentation. Any changes you make in other folders will be written over the next time you build the site locally. This doesn't apply to any new folders that you create for your own purposes.
 
-### Overriding index.html
+### Overriding The Website Landing Page
 Your website landing page is typically configured through your `index.html` file. You can override this by creating an `index.md` file in your site directory and configuring it to the desired layout in the YAML front matter of the file. 
 
-For example, if by default your theme landing page is a summary of your recent blog posts and you want it instead to be a webpage, in your `index.md` you can confgure the YAML front matter to the following:
+For example, by default your theme landing page is a summary of your recent blog posts and you want it instead to be a webpage. So in your `index.md` you can confgure the YAML front matter to the following:
 <pre><code>---
 layout: page
 title: Home
 permalink: /
 ---
 </code></pre>
-Within this configuration you have specified the layout template that the webpage should follow i.e. page. You've specified it's title: "Home" and specified that the permalink should be the root of the site. So whenever the website is first accessed, this will be the page that is navigated to. Now you only need to add your desired content to the `*.markdown` file.
+Within this configuration you have specified the layout template that the webpage should follow, i.e. page. You've specified its title: "Home" and specified that the permalink should be the root of the site. So whenever the website is first accessed, this will be the page that is navigated to. Now you only need to add your desired content to the `*.markdown` file.
 
 ## Adding Content To Your Website
 Written content can be added to your website by adding `*.markdown` files within your site directory. Each file must begin with YAML front matter where you specify the layout template and other details so that Jekyll will understand how to structure the HTML page. Typically there are three types of layout:
@@ -185,7 +185,7 @@ For example:
 </code></pre>
 You must provide the correct path to the image. This path must be in reference to the current file's location. So if your `*.markdown` file is in the main directory of your website and your image is under `assets` then your path would be: `/assets/image.jpg`
 
-But if your `*.markdown` file is in a subfolder of the main directory, then to explain to Jekyll that the image folder it is looking for one directory up you must add a `../`. For example:
+But if your `*.markdown` file is in a subfolder of the main directory, then to explain to Jekyll that the image folder it is looking for is one directory up you must add a `../`. For example:
 <pre><code>![](../assets/image.jpg)
 </code></pre>
 

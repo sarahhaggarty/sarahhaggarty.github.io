@@ -2,7 +2,7 @@
 
 As a Product Owner and Engineering Manager that's managed embedded firmware delivered to millions of devices globally, I've had the opportunity to be both the customer and the supplier in two different industries. I've experienced first hand the difficulty each faces when it comes to embedded firmware delivery and I know how important it is for both parties to get it right. To have a successful product you need to have successful firmware and this depends more than you would realise on a successful relationship between customer and supplier. 
 
-In the below article I've highlighted **"The Fundamental Six"** that are common pitfalls you can make as a supplier when trying to manage the customer relationship. It’s all about trust and there are a number of things you can do as a supplier to work towards fostering a healthy relationship between customer and supplier or better yet, creating a partnership.
+In the below article I've highlighted **"The Fundamental Six"** that are common pitfalls you can make as a supplier when trying to manage the customer relationship. It’s all about trust and there are a number of things you can do as a supplier to work towards fostering a healthy relationship between customer and supplier. Or better yet, creating a partnership.
 
 ## The Fundamental Six:
 
@@ -16,7 +16,7 @@ In the below article I've highlighted **"The Fundamental Six"** that are common 
 
 <sub>Source: [https://qikipedia.fandom.com/wiki/Nobody_Knows](https://qikipedia.fandom.com/wiki/Nobody_Knows)</sub>
 
-**Be honest.** Admit what you do know and what you don’t. And whatever you do, don’t improvise an answer on the fly. If you do this you risk looking unprofessional and disorganised. If you don't know something it is far better to accept the task of finding an answer than guessing and getting it wrong. 
+**Be honest.** Admit what you do know and what you don’t. And whatever you do, don’t improvise an answer on the spot. If you do this you risk looking unprofessional and disorganised. If you don't know something it is far better to accept the task of finding an answer than guessing and getting it wrong. 
 
 How to communicate successfully in an influential and persuasive way that engenders trust will depend on the culture of the customer you are working with. If you want to learn more about this, I recommend Erin Meyer’s book: The Culture Map. In it, she compares countries on eight different scales to show how differences in cultural approach can lead to conflict. With awareness of where you are as a supplier on these scales and where your customer is, you can get the most out of your communication and relationship building.
 <a name="dont-overshare"></a>
@@ -41,7 +41,7 @@ Be mindful also that the more information you share the higher the bar you are s
 
 The faster and more chaotic things get the more important it is to breathe through the situation. 
 
-I originally learned this as part of one of my hobbies: ballet. When dancing ballet you need to have considerable coordination to move your arms, legs and head independently simultaneously and all in time to the music. This can become overwhelming quickly at speed but the simple act of breathing deeply allows you more time between each step. This same technique can be applied here.
+I originally learned this as part of one of my hobbies: ballet. When dancing ballet you need to have considerable coordination to move your arms, legs and head independently, simultaneously and all in time to the music. This can become overwhelming quickly at speed but the simple act of breathing deeply allows you more time between each step. This same technique can be applied here.
 
 In a firmware world, what I'm about to say could be controversial for some, but here goes: 
 
@@ -51,9 +51,9 @@ In a firmware world, what I'm about to say could be controversial for some, but 
 
 The reason why I say this is because the issue could be anything; from a lab environment problem, human error, misunderstanding of requirements or a corner case of a corner case of a corner case. 
 
-It’s even more important if the issue is end customer or operations impacting to get as much information as you can before raising the alarm. I'm not saying to sit on it for days but in the majority of cases you can take 24-48 hours to understand whether this is something to hit the red button for. And if it is, you can then brief the customer with your justification for that and have a timeline ready for your planned next steps to get their feedback. 
+It’s even more important if the issue is end-customer or operations impacting to get as much information as you can before raising the alarm. I'm not saying to sit on it for days but in the majority of cases you can take 24-48 hours to understand whether this is something to hit the red button for. And if it is, you can then brief the customer with your justification for that and have a timeline ready for your planned next steps to get their feedback. 
 
-Obviously, the closer you are to a delivery date the more time sensitive it becomes but I would argue even more strongly that it is then more important to double-check your facts. 
+Obviously, the closer you are to a delivery date the more time sensitive it becomes but I would argue strongly that it is then more important to double-check your facts. 
 
 I remember sitting as a customer with a supplier in Taiwan on a status update call when one of the supplier’s project managers came in saying that they’d just found a critical bug that was crashing the firmware. As a result, our project timelines would be impacted. Immediately my manager that was on the phone was demanding information as to the nature of the issue but there was no information yet. It circled like this for several minutes with increasing levels of concern before I stepped in stating that we needed to park this discussion and reconvene at the end of the day when there was more information available. 
 
@@ -89,7 +89,7 @@ The concern here is always that if the customer waits for these last minute requ
 
 The key here is to have a regular release cadence that works like clockwork to give the customer the comfort that even if they miss this one then the next is only (a week, two weeks, a month) away. With quarterly release cadence this becomes more difficult but it is then even more important. 
 
-Towards the end of a release, time should be spent solely on bug fixing and not on adding new feature content or significant functional change last minute as this increases the risk of regression and can ultimately lead the customer to having to wait just as long for the current release as compared to waiting for the next. 
+Towards the end of a release, time should be spent solely on bug fixing and not on adding new feature content or significant functional change last minute. This is because it increases the risk of regression and can ultimately lead the customer to having to wait just as long for the current release as compared to waiting for the next. 
 
 The best approach to avoid this is that when the current release development is progressing, actively engage the customer on the content for the next release early which will focus them on the future rather than make them feel like they are walking up to a cliff edge. 
 

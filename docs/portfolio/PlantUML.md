@@ -6,11 +6,13 @@ If you make a mistake, instead of having to massage your change back into your d
 
 ## What is PlantUML?
 
-First let's start with understanding what UML means. From Wikipedia: "The *Unified Modeling Language* (UML) is a general-purpose, developmental, modeling language in the field of software engineering that is intended to provide a standard way to visualize the design of a system."
+First let's start with understanding what UML means. From Wikipedia: 
 
-So you can think of it as a standardised set of symbols, shapes and arrows that are automatically generated so you don't have to waste time dragging, linking and resizing these types of objects.
+>"The *Unified Modeling Language* (UML) is a general-purpose, developmental, modeling language in the field of software engineering that is intended to provide a standard way to visualize the design of a system."
 
-To answer the original topic, PlantUML is a tool that is used to draw UML diagrams, using a simple and human readable text description. The tool can output a diagram in PNG, SVG or LaTeX format. It is written in Java but you do not need knowledge of Java to use it.
+So you can think of it as a standardised set of symbols, shapes and arrows that are automatically generated. This significantly reduces the manual effort of dragging, linking and resizing these types of objects.
+
+To answer the original topic: PlantUML is a tool that is used to draw UML diagrams, using a simple and human readable text description. The tool can output a diagram in PNG, SVG or LaTeX format. It is written in Java but you do not need knowledge of Java to use it.
 
 An example:
 <p align="center">
@@ -53,13 +55,13 @@ For many different examples of how you can modify your diagram to your needs you
 
 There are two options to use PlantUML. 
 
-1. You can use the PlantUML [online server](http://plantuml.com/plantuml). Here you can generate diagrams on the fly and refer back to them by a unique PlantUML URL. E.g. `http://www.plantuml.com/plantuml/png/<unique string here>`
+1. You can use the PlantUML [online server](http://plantuml.com/plantuml). Here you can generate diagrams on demand and refer back to them by a unique PlantUML URL. E.g. `http://www.plantuml.com/plantuml/png/<unique string here>`
 
 2. You can install the tool locally on your PC. This option may be useful if you want to generate diagrams offline. The tool can be operated by a GUI interface or by command line. Instructions for how to install the tool locally are in the next section.
 
 ## How to install PlantUML locally on Windows
 
-1. Firstly, you will need to install [Java](https://www.java.com/en/download/). Make sure that you select the appropriate licence for your use.
+1. Firstly, you will need to install [Java](https://www.java.com/en/download/). Make sure that you select the appropriate licence for your use during the installation process.
 2. Once Java is installed, download [plantUML.jar](http://sourceforge.net/projects/plantuml/files/plantuml.jar/download) and save it in a directory where you will want to store your input text files and generated diagrams.
 
 ## Using PlantUML locally
@@ -88,13 +90,13 @@ Alice -> Bob: test
 
 Open your preferred terminal application. I prefer to use [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab).
 
-Input the following command and press enter:
+First you need to navigate to the folder where your `plantuml.jar` file is located using the `cd` command. Then input the following command and press enter:
 
 `java -jar plantuml.jar <your filename>.txt`
 
 *Note: you need to replace `<your file name>` with the actual name of your `*`.txt file.*
 
-This will generate the diagram as an image. Congratulations! You made your first UML diagram using PlantUML.
+This will generate the diagram as an image and store it in your current folder. Congratulations! You made your first UML diagram using PlantUML.
 
 ## Further Reading
 

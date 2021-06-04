@@ -10,7 +10,7 @@ I’m passionate about technology and sharing new ideas and concepts in a clear 
 
 Where most engineers dread to put words to paper I receive immense satisfaction from it; nothing could be more natural to me. After all, a tool or technology is only useful if it can be easily understood and used. 
 
-Over my career across telecommunication and automotive industries I’ve written hundreds of technical documents from requirements and specifications to test cases to reports to solution and interaction designs. 
+Over my career across telecommunication and automotive industries, I’ve written hundreds of technical documents from requirements and specifications to test cases to reports to solution and interaction designs. 
 
 <p align="center">
 	<img src="/assets/238.jpg" style="zoom:10%;"/>
