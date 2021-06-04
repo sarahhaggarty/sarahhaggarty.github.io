@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Plant UML - A Versatile Tool For Sequence Diagrams And More",
-		"image": "../../assets/PlantUML_Logo_small.png",
+		"image": "../../assets/Plantuml_Logo_small.png",
 		"url": "plantUML",
 		"date": "May 2021",
 		"tags": ["PlantUML","Introduction", "Java", "Plain Text"]
