@@ -2,7 +2,7 @@
 	{
 		"name": "Plant UML - A Versatile Tool For Sequence Diagrams And More",
 		"image": "../../assets/Plantuml_Logo_small.png",
-		"url": "plantUML",
+		"url": "PlantUML",
 		"date": "May 2021",
 		"tags": ["PlantUML","Introduction", "Java", "Plain Text"]
 	},
@@ -16,7 +16,7 @@
 	{
 		"name": "Creating a Static Website Using Jekyll",
 		"image": "../../assets/jekyll-logo-square.png",
-		"url": "Jekyll",
+		"url": "jekyll",
 		"date": "June 2021",
 		"tags": ["Documentation","Jekyll", "Ruby", "Markdown"]
 	},
