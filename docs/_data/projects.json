@@ -1,5 +1,12 @@
 [
 	{
+		"name": "Creating a Static Website Using Jekyll",
+		"image": "../../assets/jekyll-logo-square.png",
+		"url": "jekyll",
+		"date": "June 2021",
+		"tags": ["Documentation","Jekyll", "Ruby", "Markdown"]
+	},
+	{
 		"name": "Plant UML - A Versatile Tool For Sequence Diagrams And More",
 		"image": "../../assets/Plantuml_Logo_small.png",
 		"url": "PlantUML",
@@ -12,12 +19,6 @@
 		"url": "managing-the-customer-relationship",
 		"date": "May 2021",
 		"tags": ["Firmware","Article", "Guidance"]
-	},
-	{
-		"name": "Creating a Static Website Using Jekyll",
-		"image": "../../assets/jekyll-logo-square.png",
-		"url": "jekyll",
-		"date": "June 2021",
-		"tags": ["Documentation","Jekyll", "Ruby", "Markdown"]
-	},
+	}
+
 ]
