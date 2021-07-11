@@ -8,7 +8,7 @@ permalink: /about/
 
 I’m passionate about technology and sharing new ideas and concepts in a clear and interesting way. I revel in the activity of breaking down a complex topic to make it accessible and understandable to a wider audience. 
 
-Where most engineers dread to put words to paper I receive immense satisfaction from it; nothing could be more natural to me. After all, a tool or technology is only useful if it can be easily understood and used. 
+Where most engineers dread to put words to paper I receive immense satisfaction from it. After all, a tool or technology is only useful if it can be easily understood and used. 
 
 Over my career across telecommunication and automotive industries, I’ve written hundreds of technical documents from requirements and specifications to test cases to reports to solution and interaction designs. 
 
