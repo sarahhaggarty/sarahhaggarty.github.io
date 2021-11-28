@@ -1,23 +1,23 @@
 [
 	{
-		"name": "Creating a Static Website Using Jekyll",
+		"name": "Creating a static website using Jekyll",
 		"image": "../../assets/jekyll-logo-square.png",
 		"url": "jekyll",
-		"date": "June 2021",
+		"date": "",
 		"tags": ["Documentation","Jekyll", "Ruby", "Markdown"]
 	},
 	{
-		"name": "Plant UML - A Versatile Tool For Sequence Diagrams And More",
+		"name": "Plant UML - A versatile tool for sequence diagrams and more",
 		"image": "../../assets/Plantuml_Logo_small.png",
 		"url": "PlantUML",
-		"date": "May 2021",
+		"date": "",
 		"tags": ["PlantUML","Introduction", "Java", "Plain Text"]
 	},
 	{
-		"name": "Managing the Customer Relationship - Embedded Firmware Delivery",
+		"name": "Managing the customer relationship - Embedded firmware delivery",
 		"image": "../../assets/handshake.png",
 		"url": "managing-the-customer-relationship",
-		"date": "May 2021",
+		"date": "",
 		"tags": ["Firmware","Article", "Guidance"]
 	}
 
