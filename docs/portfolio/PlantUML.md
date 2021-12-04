@@ -100,11 +100,11 @@ Alice -> Bob: test
 
 4. Navigate to the folder where your `plantuml.jar` file is located using the `cd` command, then input the following command and press enter:
 
-`java -jar plantuml.jar <your filename>.txt`
+    `java -jar plantuml.jar <your filename>.txt`
 
-*Note: you need to replace `<your file name>` with the actual name of your `*`.txt file.*
+    *Note: you need to replace `<your file name>` with the actual name of your `*`.txt file.*
 
-  This generates the diagram as an image and stores it in your current folder.
+    This generates the diagram as an image and stores it in your current folder.
 
 Congratulations! You made your first UML diagram using PlantUML.
 
