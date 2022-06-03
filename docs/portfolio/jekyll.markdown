@@ -5,17 +5,17 @@ Jekyll is a piece of software that allows users to quickly create and customise 
 For example, Github Pages offers to host Jekyll generated static websites for free. On other platforms such as Amazon S3 you can pay a small fee per month depending on the size of the content you wish to store. Static websites are less demanding than dynamic websites so are a cheaper alternative which adds to their appeal.
 
 This document provides instructions on how to:
-- [Install Jekyll](#installing-jekyll)
-- [Create a static website](#creating-a-static-website)
-- [Customise your website](#customising-your-website)
-- [Add content to your website](#adding-content-to-your-website)
+- [Install Jekyll](#install-jekyll)
+- [Create a static website](#create-a-static-website)
+- [Customise your website](#customise-your-website)
+- [Add content to your website](#add-content-to-your-website)
 
 **Note:** This document only covers users of Windows 10 devices. For other Operating Systems like macOS or Linux, there are guides available [here](https://jekyllrb.com/docs/installation/).
 
 ---
 
 
-## Installing Jekyll
+## Install Jekyll
 Jekyll is written in Ruby so this must be installed first.
 
 1\. Download the recommended [RubyInstaller](https://rubyinstaller.org/downloads/) for Windows.
@@ -41,7 +41,7 @@ If the installation has been successful then you should see, for example:
 </code></pre>
 **Note:** The version you see may be different from the example. What is important is that you do see a version number.
 
-## Creating a static website
+## Create a static website
 Now that you have successfully installed Jekyll it is now easy to create a static website in a few simple steps.
 
 1\. Firstly, open command prompt and navigate with the `cd` command to where you want your static website files to be generated and stored.
@@ -61,7 +61,7 @@ Where you substitute `<new_folder>` with the name of your new folder.
 </code></pre>
 4\. You can now access and view this site at: [http://localhost:4000/](http://localhost:4000/). Open a browser and browse to this URL to preview your new website. To stop this process you can press CTRL and C keys simultaneously on your keyboard in the command prompt window. Command prompt asks for confirmation twice. Enter `y` when prompted twice to successfully stop the process.
 
-## Customising your website
+## Customise your website
 Your new jekyll site will have the following structure by default:
 <pre><code>.
 ├── Gemfile
@@ -120,7 +120,7 @@ This can include some of the following:
 
 Each theme's `README.md` has further details on what is possible in this area.
 
-### Overriding theme defaults
+### Override theme defaults
 You can override parts of a Jekyll theme if you want to make small changes to it. Typically a Jekyll theme has the following structure:
 <pre><code>.
 ├── assets
@@ -156,7 +156,7 @@ With this method you can then modify default font colours or edit the style of y
 
 **Note:** You must restrict your modifications to only within these folders specified above or listed in your theme's documentation. Any changes you make in other folders will be overwritten the next time you build the site locally. This doesn't apply to any new folders that you create for your own purposes.
 
-### Overriding the website landing page
+### Override the website landing page
 Your website landing page is typically configured through your `index.html` file. You can override this by creating an `index.md` file in your site directory and configuring it to the desired layout in the YAML front matter of the file.
 
 For example, by default your theme landing page is a summary of your recent blog posts and you want it instead to be a webpage. So in your `index.md` you can configure the YAML front matter to the following:
@@ -168,7 +168,7 @@ permalink: /
 </code></pre>
 Within this configuration you have specified the layout template that the webpage should follow, i.e. page. You've specified its title: "Home", and specified that the permalink should be the root of the site. So whenever the website is first accessed, this is the page that is navigated to. Now you only need to add your desired content to the `*.markdown` file.
 
-## Adding content to your website
+## Add content to your website
 Written content can be added to your website by adding `*.markdown` files within your site directory. Each file must begin with YAML front matter where you specify the layout template and other details so that Jekyll will understand how to structure the HTML page. Typically there are three types of layout:
 - default
 - page
@@ -178,7 +178,7 @@ Any new pages can be placed in the main site directory or subfolders. For exampl
 
 Blog posts that use the "post" layout should be stored within the `_posts` directory.
 
-### Adding content with images
+### Add content with images
 Within your `*.markdown` files you can use markdown syntax to include an image in your content.
 For example:
 <pre><code>![](image.jpg)

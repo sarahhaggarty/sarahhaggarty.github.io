@@ -53,22 +53,22 @@ For many different examples of how you can modify your diagram to your needs, se
 
 ## How can I use PlantUML?
 
-There are two options to use PlantUML.
+There are two options for using PlantUML. You can:
 
-- You can use the PlantUML [online server](http://plantuml.com/plantuml). Here you can generate diagrams on demand and refer back to them by a unique PlantUML URL. E.g. `http://www.plantuml.com/plantuml/png/<unique string here>`
+- Use the PlantUML [online server](http://plantuml.com/plantuml). Here you can generate diagrams on demand and refer back to them by a unique PlantUML URL. E.g. `http://www.plantuml.com/plantuml/png/<unique string here>`
 
-- You can install the tool locally on your PC. This option may be useful if you want to generate diagrams offline. The tool can be operated by a GUI interface or by command line. Instructions for how to install the tool locally are in the next section.
+- Install the tool locally on your PC. This option may be useful if you want to generate diagrams offline. The tool can be operated by a GUI interface or by command line. Instructions for how to install the tool locally are in the next section.
 
 ## How to install PlantUML locally on Windows
 
 1. Firstly, you need to install [Java](https://www.java.com/en/download/). Make sure that you select the appropriate licence for your use during the installation process.
 2. Once Java is installed, download [plantUML.jar](http://sourceforge.net/projects/plantuml/files/plantuml.jar/download) and save it in a directory where you want to store your input text files and generated diagrams.
 
-## Using PlantUML locally
+## Use PlantUML locally
 
 Now you have PlantUML installed these are the ways that you can use it:
 
-### Using the GUI
+### Use the GUI
 
 1. To activate the GUI, double-click on the plantuml.jar file that you downloaded earlier.  
   On the interface you see an empty file list.
@@ -85,7 +85,7 @@ Alice -> Bob: test
 
 Congratulations! You made your first UML diagram using PlantUML.
 
-### Using the command line
+### Use the command line
 
 1. Create a *.txt file using your text editor of your choice. This file should be stored in the same folder as your plantuml.jar file.
 2. Save the below text to your *.txt file.
@@ -108,7 +108,7 @@ Alice -> Bob: test
 
 Congratulations! You made your first UML diagram using PlantUML.
 
-## Further Reading
+## Further reading
 
 This article only contains a very small portion of PlantUML's capabilities. PlantUML is also integrated in many platforms and applications such as GitLab, GitHub, Confluence, WordPress and more. See here for the full [list](https://plantuml.com/running). PlantUML can even be used to create non-UML diagrams! To understand the full scope of what this tool has to offer, which is extensive, you should explore the [PlantUML Wiki.](https://plantuml.com/sequence-diagram) Happy reading!
 
