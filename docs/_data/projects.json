@@ -1,17 +1,24 @@
 [
 	{
+		"name": "Installing Perl modules",
+		"image": "../../assets/camel.jpg",
+		"url": "installing-perl-modules",
+		"date": "",
+		"tags": ["Documentation","Perl"]
+	},
+	{
 		"name": "Creating a static website using Jekyll",
 		"image": "../../assets/jekyll-logo-square.png",
 		"url": "jekyll",
 		"date": "",
-		"tags": ["Documentation","Jekyll", "Ruby", "Markdown"]
+		"tags": ["Documentation","Jekyll", "Ruby"]
 	},
 	{
-		"name": "Plant UML - A versatile tool for sequence diagrams and more",
+		"name": "Using PlantUML for sequence diagrams",
 		"image": "../../assets/Plantuml_Logo_small.png",
 		"url": "PlantUML",
 		"date": "",
-		"tags": ["PlantUML","Introduction", "Java", "Plain Text"]
+		"tags": ["PlantUML", "Java"]
 	},
 	{
 		"name": "Managing the customer relationship - Embedded firmware delivery",
