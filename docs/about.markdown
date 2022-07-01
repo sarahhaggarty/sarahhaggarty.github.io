@@ -16,9 +16,9 @@ Over my career across telecommunication and automotive industries, I’ve writte
 	<img src="/assets/238.jpg" style="zoom:10%;"/>
 </p>
 
-I have a strong technical and product background with considerable experience in managing firmware for product launches, hardware updates and third party agent integrations. I'm a specialist in extracting information from a variety of different stakeholders to create the documentation that is needed whilst building a good rapport.
+I have a strong technical and product background with considerable experience in managing firmware for product launches, hardware updates and third party agent integrations. I'm a specialist in extracting information from a variety of different stakeholders to create the documentation that is needed while building a good rapport.
 
-I’ve decided to step back from a leadership and product focussed role to take time to develop my creative skills and extend my technical skillset whilst dedicating quality time to spend with my loved ones.
+I’ve decided to step back from a leadership and product focussed role to take time to develop my creative skills and extend my technical skillset while dedicating quality time to spend with my loved ones.
 
 <sub><a href="https://www.freepik.com/vectors/banner">Banner vector created by roserodionova - www.freepik.com</a></sub>
 
